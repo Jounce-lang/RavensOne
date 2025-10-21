@@ -471,8 +471,12 @@ impl SemanticAnalyzer {
 
                     // Look up expected field type
                     if let Some(expected_type) = self.structs.get_field_type(&struct_lit.name.value, &field_name.value) {
-                        // TODO: Add type compatibility checking here
-                        // For now, just accept any type
+                        if !self.types_compatible(&value_type, &expected_type) {
+                            return Err(CompileError::Generic(format!(
+                                "field '{}': expected {}, found {}",
+                                field_name.value, expected_type, value_type
+                            )));
+                        }
                     } else {
                         return Err(CompileError::Generic(format!(
                             "Struct '{}' has no field named '{}'",
