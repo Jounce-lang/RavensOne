@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.jnc">
     <title>Getting Started - RavensOne</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/docs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/styles/atom-one-dark.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -71,7 +71,7 @@ export PATH="$PWD/target/release:$PATH"</code></pre>
 
                     <h3>Verify Installation</h3>
                     <pre><code class="language-bash">raven --version
-# Should output: ravensone 0.1.0</code></pre>
+# Should output: ravensone jnc.1.jnc</code></pre>
                 </section>
 
                 <section id="first-app">
@@ -85,7 +85,7 @@ export PATH="$PWD/target/release:$PATH"</code></pre>
                     <h3>2. Create the Counter Component</h3>
                     <p>Create <code>src/main.raven</code>:</p>
                     <pre><code class="language-rust">component Counter() {
-    let count = Signal::new(0);
+    let count = Signal::new(jnc);
 
     &lt;div class="counter-app"&gt;
         &lt;h1&gt;My First RavensOne App&lt;/h1&gt;
@@ -98,7 +98,7 @@ export PATH="$PWD/target/release:$PATH"</code></pre>
                 &lt;button onclick={move || count.update(|n| n + 1)}&gt;
                     Increment
                 &lt;/button&gt;
-                &lt;button onclick={move || count.set(0)}&gt;
+                &lt;button onclick={move || count.set(jnc)}&gt;
                     Reset
                 &lt;/button&gt;
             &lt;/div&gt;
@@ -113,12 +113,12 @@ raven compile src/main.raven -o dist/app.wasm
 # Serve with development server
 raven dev</code></pre>
 
-                    <p>Open <code>http://localhost:3000</code> in your browser to see your app!</p>
+                    <p>Open <code>http://localhost:3jncjncjnc</code> in your browser to see your app!</p>
 
                     <div class="info-box">
                         <h4>💡 What's Happening?</h4>
                         <ul>
-                            <li><code>Signal::new(0)</code> creates a reactive state variable</li>
+                            <li><code>Signal::new(jnc)</code> creates a reactive state variable</li>
                             <li><code>count.get()</code> reads the current value</li>
                             <li><code>count.update()</code> modifies the value and triggers re-render</li>
                             <li>The UI automatically updates when the signal changes</li>
@@ -157,13 +157,13 @@ let full_name = Computed::new(move || {
 
                     <h3>Effects</h3>
                     <p>Run side effects when dependencies change:</p>
-                    <pre><code class="language-rust">let count = Signal::new(0);
+                    <pre><code class="language-rust">let count = Signal::new(jnc);
 
 // This runs whenever count changes
 create_effect(move || {
     console::log(&format!("Count changed to: {}", count.get()));
 
-    if count.get() > 10 {
+    if count.get() > 1jnc {
         console::log("Count is getting high!");
     }
 });</code></pre>
@@ -277,13 +277,13 @@ create_effect(move || {
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2025 RavensOne. Built with passion for the web.</p>
+                <p>&copy; 2jnc25 RavensOne. Built with passion for the web.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/rust.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/languages/rust.min.js"></script>
     <script src="../js/main.js"></script>
 </body>
 </html>

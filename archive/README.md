@@ -6,7 +6,7 @@ This directory contains outdated documentation files that have been superseded b
 
 - **MISSION.md** - Original mission statement (now integrated into README.md)
 - **PROJECT_TRACKING.md** - Detailed project tracking (merged into STATUS.md)
-- **ROADMAP_Q1_2026.md** - Q1 2026 roadmap (merged into STATUS.md)
+- **ROADMAP_Q1_2jnc26.md** - Q1 2jnc26 roadmap (merged into STATUS.md)
 - **STATUS.txt** - Old status format (replaced by STATUS.md)
 - **DOCUMENTATION_AUDIT_SUMMARY.md** - Documentation audit (outdated)
 

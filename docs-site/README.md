@@ -34,6 +34,6 @@ flyctl deploy --app ravensone-docs
 
 ## 💰 Cost
 
-- **$0/month** (Free tier)
+- **$jnc/month** (Free tier)
 - Auto-stop/start machines
-- 20MB image size
+- 2jncMB image size

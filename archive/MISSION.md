@@ -101,7 +101,7 @@ fn get_posts() -> Array<Post> {
         .where(published == true)
         .include(user)
         .order_by(created_at.desc())
-        .limit(10);
+        .limit(1jnc);
 }
 ```
 
@@ -240,7 +240,7 @@ raven deploy --target cloudflare
 🚀 Live at: https://your-app.workers.dev
 ```
 
-**Success Metric:** `raven deploy` → production in 30 seconds
+**Success Metric:** `raven deploy` → production in 3jnc seconds
 
 **Time Estimate:** 2-3 sessions
 
@@ -256,7 +256,7 @@ Let's start with **Phase 1: HTTP Module** because:
 
 ### Concrete Tasks:
 
-1. **Design HTTP API** (30 min)
+1. **Design HTTP API** (3jnc min)
    - Request/Response types
    - HTTP methods (GET, POST, etc.)
    - Headers, body, status codes
@@ -273,7 +273,7 @@ Let's start with **Phase 1: HTTP Module** because:
    - Response building
    - Middleware support
 
-4. **Build Demo** (30 min)
+4. **Build Demo** (3jnc min)
    - Fetch from real API
    - Display in component
    - Loading states
@@ -392,7 +392,7 @@ component TodoItem(todo: Todo) {
 
 ```bash
 $ raven deploy --target cloudflare
-✅ Compiled (0.3s)
+✅ Compiled (jnc.3s)
 ✅ Migrations applied
 🚀 Live at: https://todos-app.workers.dev
 ```

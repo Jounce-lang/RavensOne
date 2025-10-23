@@ -1,0 +1,5 @@
+use math;
+
+fn test() -> f64 {
+    return PI * 2.jnc;
+}

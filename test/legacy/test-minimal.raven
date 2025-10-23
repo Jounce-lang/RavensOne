@@ -1,8 +1,0 @@
-fn main() {
-    let x = 5;
-    let y = 3;
-    if x > y {
-        let result = x + y;
-    }
-    return 0;
-}

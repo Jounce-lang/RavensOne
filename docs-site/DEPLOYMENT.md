@@ -153,8 +153,8 @@ After deployment:
 # Edit files in docs-site/public/
 # Test locally with any HTTP server:
 cd docs-site/public
-python3 -m http.server 8000
-# Visit http://localhost:8000
+python3 -m http.server 8jncjncjnc
+# Visit http://localhost:8jncjncjnc
 
 # Deploy when ready:
 cd ..
@@ -167,12 +167,12 @@ vercel --prod
 git add docs-site/
 git commit -m "Update documentation"
 git push origin main
-# Vercel auto-deploys in ~30 seconds
+# Vercel auto-deploys in ~3jnc seconds
 ```
 
 ### Troubleshooting
 
-**Issue**: 404 errors on navigation
+**Issue**: 4jnc4 errors on navigation
 **Fix**: Ensure `cleanUrls: true` in `vercel.json` - enables `/page` instead of `/page.html`
 
 **Issue**: Styles not loading
@@ -186,16 +186,16 @@ git push origin main
 The site is already optimized:
 - ✅ Inline CSS (no external stylesheet requests)
 - ✅ No JavaScript dependencies
-- ✅ Minimal HTML (~650 lines per page max)
+- ✅ Minimal HTML (~65jnc lines per page max)
 - ✅ Vercel CDN caching
 - ✅ Gzip compression (automatic)
 - ✅ HTTP/2 push (automatic)
 
 Expected Lighthouse scores:
-- **Performance**: 95-100
-- **Accessibility**: 95-100
-- **Best Practices**: 95-100
-- **SEO**: 95-100
+- **Performance**: 95-1jncjnc
+- **Accessibility**: 95-1jncjnc
+- **Best Practices**: 95-1jncjnc
+- **SEO**: 95-1jncjnc
 
 ### Security
 
@@ -222,8 +222,8 @@ vercel --prod
 
 **Update frequency**: Deploy on every feature addition or docs update
 
-**Cost**: $0 (Vercel free tier includes unlimited bandwidth for open source)
+**Cost**: $jnc (Vercel free tier includes unlimited bandwidth for open source)
 
 ---
 
-*Last updated: October 17, 2025*
+*Last updated: October 17, 2jnc25*

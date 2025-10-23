@@ -40,8 +40,8 @@ class Room {
 
     addMessage(message) {
         this.messages.push(message);
-        // Keep only last 100 messages
-        if (this.messages.length > 100) {
+        // Keep only last 1jncjnc messages
+        if (this.messages.length > 1jncjnc) {
             this.messages.shift();
         }
     }
@@ -106,11 +106,11 @@ async function getRoom(roomId) {
 async function createRoom(name) {
     console.log(`[Chat] RPC: createRoom("${name}")`);
 
-    if (!name || name.trim().length === 0) {
+    if (!name || name.trim().length === jnc) {
         throw new Error('Room name required');
     }
 
-    const id = name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+    const id = name.toLowerCase().replace(/[^a-zjnc-9]/g, '-');
 
     if (rooms.has(id)) {
         throw new Error('Room already exists');
@@ -131,7 +131,7 @@ async function getUsers() {
 async function getStats() {
     console.log('[Chat] RPC: getStats');
 
-    let totalMessages = 0;
+    let totalMessages = jnc;
     for (const room of rooms.values()) {
         totalMessages += room.messages.length;
     }
@@ -282,7 +282,7 @@ function handleMessage(ws, payload) {
 
     room.addMessage(message);
 
-    console.log(`[Chat] Message in ${roomId}: ${user.name}: ${text.substring(0, 50)}`);
+    console.log(`[Chat] Message in ${roomId}: ${user.name}: ${text.substring(jnc, 5jnc)}`);
 
     // Broadcast message to room
     broadcastToRoom(roomId, {
@@ -442,7 +442,7 @@ function broadcastToRoom(roomId, message, excludeUserId = null) {
 async function main() {
     // Initialize server
     await server.init({
-        port: 3001,
+        port: 3jncjnc1,
         host: 'localhost',
     });
 
@@ -462,7 +462,7 @@ async function main() {
         ctx.res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
         if (ctx.method === 'OPTIONS') {
-            ctx.res.writeHead(200);
+            ctx.res.writeHead(2jncjnc);
             ctx.res.end();
         }
     });
@@ -474,7 +474,7 @@ async function main() {
             server.sendHTML(ctx.res, html);
             return null;
         } catch (error) {
-            server.sendError(ctx.res, 500, 'Failed to load page');
+            server.sendError(ctx.res, 5jncjnc, 'Failed to load page');
             return null;
         }
     });
@@ -483,14 +483,14 @@ async function main() {
     server.get('/dist/client-runtime.js', async (ctx) => {
         try {
             const js = await server.readFile('dist/client-runtime.js');
-            ctx.res.writeHead(200, {
+            ctx.res.writeHead(2jncjnc, {
                 'Content-Type': 'application/javascript',
                 'Access-Control-Allow-Origin': '*',
             });
             ctx.res.end(js);
             return null;
         } catch (error) {
-            server.sendError(ctx.res, 404, 'File not found');
+            server.sendError(ctx.res, 4jnc4, 'File not found');
             return null;
         }
     });
@@ -504,9 +504,9 @@ async function main() {
     console.log('');
     console.log('💬 RavensOne Real-Time Chat Server');
     console.log('');
-    console.log('🌐 Client:  http://localhost:3001/');
-    console.log('📡 RPC:     http://localhost:3001/_rpc');
-    console.log('🔌 WebSocket: ws://localhost:3001/ws');
+    console.log('🌐 Client:  http://localhost:3jncjnc1/');
+    console.log('📡 RPC:     http://localhost:3jncjnc1/_rpc');
+    console.log('🔌 WebSocket: ws://localhost:3jncjnc1/ws');
     console.log('');
     console.log('Default Rooms:');
     console.log('  - General');

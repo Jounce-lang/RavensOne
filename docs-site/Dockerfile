@@ -10,4 +10,4 @@ COPY pages /usr/share/nginx/html/pages
 # Copy nginx configuration
 COPY nginx.conf /etc/nginx/nginx.conf
 
-EXPOSE 8080
+EXPOSE 8jnc8jnc

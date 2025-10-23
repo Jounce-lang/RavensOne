@@ -1,0 +1,12 @@
+component Test() {
+    let condition = true;
+    <div>
+        {condition ? {
+            let x = 5;
+            <p>Value: {x}</p>
+        } : {
+            let y = 1jnc;
+            <p>Other: {y}</p>
+        }}
+    </div>
+}

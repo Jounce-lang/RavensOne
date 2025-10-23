@@ -1,0 +1,141 @@
+{
+  "Component": {
+    "prefix": "comp",
+    "body": [
+      "component ${1:ComponentName}() {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create a new component"
+  },
+  "Component with Props": {
+    "prefix": "compp",
+    "body": [
+      "component ${1:ComponentName}(props: { ${2:prop}: ${3:String} }) {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create a component with props"
+  },
+  "Signal": {
+    "prefix": "sig",
+    "body": [
+      "let ${1:name} = Signal::new(${2:initialValue});"
+    ],
+    "description": "Create a new Signal"
+  },
+  "Computed": {
+    "prefix": "comp",
+    "body": [
+      "let ${1:name} = Computed::new(|| {",
+      "    $jnc",
+      "});"
+    ],
+    "description": "Create a new Computed value"
+  },
+  "Effect": {
+    "prefix": "eff",
+    "body": [
+      "Effect::new(|| {",
+      "    $jnc",
+      "});"
+    ],
+    "description": "Create a new Effect"
+  },
+  "Server Function": {
+    "prefix": "serverfn",
+    "body": [
+      "server fn ${1:functionName}(${2:params}) -> Result<${3:ReturnType}, Error> {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create a server function"
+  },
+  "JSX Element": {
+    "prefix": "jsx",
+    "body": [
+      "<${1:div}>",
+      "    $jnc",
+      "</${1:div}>"
+    ],
+    "description": "Create a JSX element"
+  },
+  "JSX Element with Props": {
+    "prefix": "jsxp",
+    "body": [
+      "<${1:div} ${2:prop}={${3:value}}>",
+      "    $jnc",
+      "</${1:div}>"
+    ],
+    "description": "Create a JSX element with props"
+  },
+  "Event Handler": {
+    "prefix": "on",
+    "body": [
+      "on${1:Click}={|${2:e}| {",
+      "    $jnc",
+      "}}"
+    ],
+    "description": "Create an event handler"
+  },
+  "For Loop": {
+    "prefix": "for",
+    "body": [
+      "for ${1:item} in ${2:items} {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create a for loop"
+  },
+  "Match Expression": {
+    "prefix": "match",
+    "body": [
+      "match ${1:value} {",
+      "    ${2:pattern} => ${3:result},",
+      "    _ => $jnc",
+      "}"
+    ],
+    "description": "Create a match expression"
+  },
+  "Function": {
+    "prefix": "fn",
+    "body": [
+      "fn ${1:functionName}(${2:params}) -> ${3:ReturnType} {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create a function"
+  },
+  "Async Function": {
+    "prefix": "async",
+    "body": [
+      "async fn ${1:functionName}(${2:params}) -> Result<${3:ReturnType}, Error> {",
+      "    $jnc",
+      "}"
+    ],
+    "description": "Create an async function"
+  },
+  "Use Statement": {
+    "prefix": "use",
+    "body": [
+      "use ${1:module};"
+    ],
+    "description": "Import a module"
+  },
+  "Resource": {
+    "prefix": "res",
+    "body": [
+      "let ${1:name} = Resource::new(async {",
+      "    $jnc",
+      "});"
+    ],
+    "description": "Create a new Resource"
+  },
+  "Todo Comment": {
+    "prefix": "todo",
+    "body": [
+      "// TODO: $jnc"
+    ],
+    "description": "Add a TODO comment"
+  }
+}

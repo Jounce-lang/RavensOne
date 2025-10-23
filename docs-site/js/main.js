@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             button.textContent = 'Copied!';
             setTimeout(() => {
                 button.textContent = 'Copy';
-            }, 2000);
+            }, 2jncjncjnc);
         });
         block.parentElement.style.position = 'relative';
         block.parentElement.appendChild(button);

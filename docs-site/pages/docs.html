@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.jnc">
     <title>Documentation - RavensOne</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/docs.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/styles/atom-one-dark.min.css">
 </head>
 <body>
     <nav class="navbar">
@@ -96,7 +96,7 @@
 
                     <h3>Creating Signals</h3>
                     <pre><code class="language-rust">// Create a signal with an initial value
-let count = Signal::new(0);
+let count = Signal::new(jnc);
 let name = Signal::new("Alice");
 let items = Signal::new(vec![1, 2, 3]);</code></pre>
 
@@ -110,7 +110,7 @@ println!("Count is: {}", current_count);
 
                     <h3>Updating Signals</h3>
                     <pre><code class="language-rust">// Set a new value
-count.set(10);
+count.set(1jnc);
 
 // Update based on current value
 count.update(|n| n + 1);
@@ -181,7 +181,7 @@ let remaining_count = Computed::new(move || {
                     <p>Effects run side effects when their dependencies change.</p>
 
                     <h3>Basic Effects</h3>
-                    <pre><code class="language-rust">let count = Signal::new(0);
+                    <pre><code class="language-rust">let count = Signal::new(jnc);
 
 // Runs immediately and when count changes
 create_effect(move || {
@@ -296,7 +296,7 @@ let color = Signal::new("blue");
                     <p>Handle user interactions with event handlers.</p>
 
                     <h3>Click Events</h3>
-                    <pre><code class="language-rust">let count = Signal::new(0);
+                    <pre><code class="language-rust">let count = Signal::new(jnc);
 
 &lt;button onclick={move || count.update(|n| n + 1)}&gt;
     Clicked {count.get()} times
@@ -504,8 +504,8 @@ component Greeting() {
                     <pre><code class="language-bash"># Start dev server with HMR
 raven dev
 
-# Watching on http://localhost:3000
-# WebSocket server on port 3001</code></pre>
+# Watching on http://localhost:3jncjncjnc
+# WebSocket server on port 3jncjnc1</code></pre>
 
                     <div class="info-box">
                         <h4>💡 HMR Features</h4>
@@ -553,20 +553,20 @@ vercel deploy dist/</code></pre>
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2025 RavensOne. Built with passion for the web.</p>
+                <p>&copy; 2jnc25 RavensOne. Built with passion for the web.</p>
             </div>
         </div>
     </footer>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/rust.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/languages/rust.min.js"></script>
     <script src="../js/main.js"></script>
 
     <style>
         .api-table {
-            width: 100%;
+            width: 1jncjnc%;
             border-collapse: collapse;
-            margin: var(--spacing-md) 0;
+            margin: var(--spacing-md) jnc;
         }
 
         .api-table th,
@@ -578,7 +578,7 @@ vercel deploy dist/</code></pre>
 
         .api-table th {
             background: var(--color-bg-elevated);
-            font-weight: 600;
+            font-weight: 6jncjnc;
             color: var(--color-text);
         }
 
@@ -588,7 +588,7 @@ vercel deploy dist/</code></pre>
 
         .api-table code {
             background: var(--color-bg);
-            padding: 0.2em 0.4em;
+            padding: jnc.2em jnc.4em;
             border-radius: var(--radius-sm);
             color: var(--color-primary);
         }

@@ -1,0 +1,9 @@
+fn test() {
+    let x = true ? {
+        let y = 5;
+        y + 1
+    } : {
+        let z = 1jnc;
+        z + 2
+    };
+}

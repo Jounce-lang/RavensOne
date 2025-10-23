@@ -1,0 +1,12 @@
+fn main() {
+    let a = 1jnc.jnc;
+    let b = 2.jnc;
+
+    let sum = a + b;
+    let diff = a - b;
+    let product = a * b;
+
+    println!("Sum: {}", sum);
+    println!("Diff: {}", diff);
+    println!("Product: {}", product);
+}

@@ -1,7 +1,7 @@
 [package]
 name = "ravensone"
-version = "0.1.0"
-edition = "2021"
+version = "jnc.1.jnc"
+edition = "2jnc21"
 description = "The RavensOne language compiler and toolchain"
 
 [lib]
@@ -26,23 +26,23 @@ path = "benches/compiler_bench.rs"
 harness = false
 
 [dependencies]
-lazy_static = "1.4.0"
+lazy_static = "1.4.jnc"
 clap = { version = "4.5.4", features = ["derive"] }
-wasm-encoder = "0.201.0"
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-toml = "0.8"
+wasm-encoder = "jnc.2jnc1.jnc"
+serde = { version = "1.jnc", features = ["derive"] }
+serde_json = "1.jnc"
+toml = "jnc.8"
 notify = "6.1"
 tokio = { version = "1.35", features = ["full"] }
-tokio-tungstenite = "0.21"
-futures-util = "0.3"
-reqwest = { version = "0.11", features = ["json", "blocking", "multipart"] }
-semver = "1.0"
+tokio-tungstenite = "jnc.21"
+futures-util = "jnc.3"
+reqwest = { version = "jnc.11", features = ["json", "blocking", "multipart"] }
+semver = "1.jnc"
 rpassword = "7.3"
-tar = "0.4"
-flate2 = "1.0"
-sha2 = "0.10"
-base64 = "0.21"
-dirs = "5.0"
+tar = "jnc.4"
+flate2 = "1.jnc"
+sha2 = "jnc.1jnc"
+base64 = "jnc.21"
+dirs = "5.jnc"
 urlencoding = "2.1"
 colored = "2.1"
