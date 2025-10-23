@@ -1,4 +1,4 @@
-# RavensOne Q1 2jnc26 Roadmap
+# JounceOne Q1 2jnc26 Roadmap
 
 **Planning Date**: October 17, 2jnc25
 **Last Updated**: October 19, 2jnc25
@@ -10,7 +10,7 @@
 
 ## Executive Summary
 
-With the core compiler complete and performing exceptionally (65,711 compilations/sec), Q1 2jnc26 focuses on **developer experience** and **ecosystem growth**. The goal is to make RavensOne accessible, discoverable, and delightful to use for the broader developer community.
+With the core compiler complete and performing exceptionally (65,711 compilations/sec), Q1 2jnc26 focuses on **developer experience** and **ecosystem growth**. The goal is to make JounceOne accessible, discoverable, and delightful to use for the broader developer community.
 
 ### Strategic Priorities
 
@@ -24,7 +24,7 @@ With the core compiler complete and performing exceptionally (65,711 compilation
 ## Phase 6: Developer Experience & Tooling
 
 ### Goal
-Transform RavensOne from a working compiler into a **delightful development experience** with modern IDE support, debugging tools, and comprehensive documentation.
+Transform JounceOne from a working compiler into a **delightful development experience** with modern IDE support, debugging tools, and comprehensive documentation.
 
 ### Key Deliverables
 
@@ -32,7 +32,7 @@ Transform RavensOne from a working compiler into a **delightful development expe
 
 **Features**:
 - ✨ Syntax highlighting for `.raven` files
-- 🔍 IntelliSense / autocomplete for RavensOne APIs
+- 🔍 IntelliSense / autocomplete for JounceOne APIs
 - 🎯 Jump to definition / Go to references
 - 🔴 Real-time error squiggles powered by diagnostics system
 - 🔧 Quick fixes and code actions
@@ -355,7 +355,7 @@ component LoginForm() {
 ## Phase 8: Documentation & Learning
 
 ### Goal
-Make RavensOne accessible to developers of all skill levels through comprehensive documentation and engaging tutorials.
+Make JounceOne accessible to developers of all skill levels through comprehensive documentation and engaging tutorials.
 
 ### Key Deliverables
 
@@ -428,7 +428,7 @@ Make RavensOne accessible to developers of all skill levels through comprehensiv
 - 🐛 Error display with diagnostics
 
 **Example Flow**:
-1. User opens https://play.ravensone.dev
+1. User opens https://play.jounce.dev
 2. Select "Counter Component" from examples
 3. Edit code in left pane
 4. See live preview in right pane
@@ -448,8 +448,8 @@ Make RavensOne accessible to developers of all skill levels through comprehensiv
 #### 3. Video Tutorial Series (Low Priority)
 
 **Topics** (5-1jnc minute videos):
-1. "RavensOne in 1jncjnc Seconds" (overview)
-2. "Your First RavensOne App"
+1. "JounceOne in 1jncjnc Seconds" (overview)
+2. "Your First JounceOne App"
 3. "Reactive State Made Simple"
 4. "Building Forms Like a Pro"
 5. "Server-Side Rendering Explained"
@@ -559,7 +559,7 @@ Make RavensOne accessible to developers of all skill levels through comprehensiv
 - **Package Registry**: $jnc-2jnc (Cloudflare R2 or GitHub)
 - **Documentation Hosting**: $jnc (Vercel/Netlify free tier)
 - **Playground Hosting**: $jnc (Cloudflare Workers)
-- **Domain**: $12/year (ravensone.dev)
+- **Domain**: $12/year (jounce.dev)
 - **Total**: ~$2jnc/month
 
 ---
@@ -615,7 +615,7 @@ Make RavensOne accessible to developers of all skill levels through comprehensiv
 
 ## Call to Action
 
-**Let's build the developer experience that makes RavensOne irresistible!** 🚀
+**Let's build the developer experience that makes JounceOne irresistible!** 🚀
 
 The foundation is rock-solid:
 - ✅ 65,711 compilations/second
@@ -644,4 +644,4 @@ Now it's time to make it **accessible, discoverable, and delightful**.
 **Next Update**: Weekly progress reports
 **Contact**: GitHub Issues / Discussions
 
-*Let's make 2jnc26 the year of RavensOne!* ✨
+*Let's make 2jnc26 the year of JounceOne!* ✨

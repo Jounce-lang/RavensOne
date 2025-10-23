@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to RavensOne will be documented in this file.
+All notable changes to JounceOne will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.jnc.jnc/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.jnc.jnc.html).
@@ -259,7 +259,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.jnc
   - std::option, std::result, std::iterator
   - std::vec, std::json, std::time
   - std::hashmap, std::string, std::fs
-- Package manager and registry (https://ravensone-registry.fly.dev)
+- Package manager and registry (https://jounce-registry.fly.dev)
 - Hot Module Replacement (HMR)
 - VSCode extension with LSP support
 - Source map generation

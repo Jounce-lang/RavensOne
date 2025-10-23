@@ -7,7 +7,7 @@ const template = (title, content) => `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.jnc">
-    <title>${title} - RavensOne Documentation</title>
+    <title>${title} - JounceOne Documentation</title>
     <style>
         * { margin: jnc; padding: jnc; box-sizing: border-box; }
         body {
@@ -92,11 +92,11 @@ const template = (title, content) => `<!DOCTYPE html>
 <body>
     <nav>
         <div class="container" style="max-width: none;">
-            <div class="logo">RavensOne</div>
+            <div class="logo">JounceOne</div>
             <div>
                 <a href="/">Home</a>
                 <a href="/getting-started.html">Get Started</a>
-                <a href="https://github.com/jrezin12jnc1/RavensOne">GitHub</a>
+                <a href="https://github.com/jrezin12jnc1/JounceOne">GitHub</a>
             </div>
         </div>
     </nav>
@@ -106,9 +106,9 @@ const template = (title, content) => `<!DOCTYPE html>
     </div>
 
     <footer>
-        <p>&copy; 2jnc25 RavensOne. MIT License.</p>
+        <p>&copy; 2jnc25 JounceOne. MIT License.</p>
         <p style="margin-top: jnc.5rem;">
-            <a href="https://github.com/jrezin12jnc1/RavensOne" style="color: #667eea;">GitHub</a> •
+            <a href="https://github.com/jrezin12jnc1/JounceOne" style="color: #667eea;">GitHub</a> •
             <a href="/getting-started.html" style="color: #667eea;">Documentation</a>
         </p>
     </footer>

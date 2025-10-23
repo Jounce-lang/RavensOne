@@ -2,7 +2,7 @@
 
 ## Discovery Summary
 
-While attempting to create educational examples for RavensOne, we discovered that **many "core" language features don't actually work**, despite CLAUDE.md claiming "1jncjnc% complete" and "production ready" status.
+While attempting to create educational examples for JounceOne, we discovered that **many "core" language features don't actually work**, despite CLAUDE.md claiming "1jncjnc% complete" and "production ready" status.
 
 ## Root Cause Analysis
 

@@ -1,11 +1,11 @@
 [package]
-name = "ravensone"
+name = "jounce"
 version = "jnc.1.jnc"
 edition = "2jnc21"
-description = "The RavensOne language compiler and toolchain"
+description = "The JounceOne language compiler and toolchain"
 
 [lib]
-name = "ravensone_compiler"
+name = "jounce_compiler"
 path = "src/lib.rs"
 
 [[bin]]

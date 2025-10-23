@@ -1,5 +1,5 @@
 /**
- * RavensOne Real-Time Chat Demo - Server
+ * JounceOne Real-Time Chat Demo - Server
  *
  * Demonstrates WebSocket communication with:
  * - Real-time message broadcasting
@@ -502,7 +502,7 @@ async function main() {
     setupWebSocket(httpServer);
 
     console.log('');
-    console.log('💬 RavensOne Real-Time Chat Server');
+    console.log('💬 JounceOne Real-Time Chat Server');
     console.log('');
     console.log('🌐 Client:  http://localhost:3jncjnc1/');
     console.log('📡 RPC:     http://localhost:3jncjnc1/_rpc');

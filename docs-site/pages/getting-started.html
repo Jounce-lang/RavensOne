@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.jnc">
-    <title>Getting Started - RavensOne</title>
+    <title>Getting Started - JounceOne</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/docs.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.jnc/styles/atom-one-dark.min.css">
@@ -13,7 +13,7 @@
         <div class="container">
             <div class="nav-brand">
                 <a href="../index.html" style="text-decoration: none;">
-                    <span class="logo">🦅 RavensOne</span>
+                    <span class="logo">🦅 JounceOne</span>
                 </a>
             </div>
             <div class="nav-links">
@@ -22,7 +22,7 @@
                 <a href="docs.html">Documentation</a>
                 <a href="packages.html">Packages</a>
                 <a href="examples.html">Examples</a>
-                <a href="https://github.com/ravensone/ravensone" target="_blank">GitHub</a>
+                <a href="https://github.com/jounce/jounce" target="_blank">GitHub</a>
             </div>
         </div>
     </nav>
@@ -45,25 +45,25 @@
 
         <main class="docs-content">
             <article>
-                <h1>Getting Started with RavensOne</h1>
-                <p class="lead">Learn how to build reactive web applications with RavensOne in minutes.</p>
+                <h1>Getting Started with JounceOne</h1>
+                <p class="lead">Learn how to build reactive web applications with JounceOne in minutes.</p>
 
                 <section id="installation">
                     <h2>Installation</h2>
-                    <p>RavensOne can be installed using the official installer or built from source.</p>
+                    <p>JounceOne can be installed using the official installer or built from source.</p>
 
                     <h3>Quick Install (Recommended)</h3>
                     <p>Run the installation script:</p>
                     <pre><code class="language-bash"># macOS/Linux
-curl -fsSL https://ravensone.dev/install.sh | sh
+curl -fsSL https://jounce.dev/install.sh | sh
 
 # Windows
-iwr https://ravensone.dev/install.cmd -useb | iex</code></pre>
+iwr https://jounce.dev/install.cmd -useb | iex</code></pre>
 
                     <h3>Build from Source</h3>
                     <p>Clone the repository and build:</p>
-                    <pre><code class="language-bash">git clone https://github.com/ravensone/ravensone
-cd ravensone
+                    <pre><code class="language-bash">git clone https://github.com/jounce/jounce
+cd jounce
 cargo build --release
 
 # Add to PATH
@@ -71,7 +71,7 @@ export PATH="$PWD/target/release:$PATH"</code></pre>
 
                     <h3>Verify Installation</h3>
                     <pre><code class="language-bash">raven --version
-# Should output: ravensone jnc.1.jnc</code></pre>
+# Should output: jounce jnc.1.jnc</code></pre>
                 </section>
 
                 <section id="first-app">
@@ -88,7 +88,7 @@ export PATH="$PWD/target/release:$PATH"</code></pre>
     let count = Signal::new(jnc);
 
     &lt;div class="counter-app"&gt;
-        &lt;h1&gt;My First RavensOne App&lt;/h1&gt;
+        &lt;h1&gt;My First JounceOne App&lt;/h1&gt;
         &lt;div class="counter"&gt;
             &lt;h2&gt;Count: {count.get()}&lt;/h2&gt;
             &lt;div class="buttons"&gt;
@@ -128,7 +128,7 @@ raven dev</code></pre>
 
                 <section id="reactivity">
                     <h2>Understanding Reactivity</h2>
-                    <p>RavensOne uses Signals for fine-grained reactivity. This means only the parts of the UI that depend on changed data will re-render.</p>
+                    <p>JounceOne uses Signals for fine-grained reactivity. This means only the parts of the UI that depend on changed data will re-render.</p>
 
                     <h3>Signals</h3>
                     <p>Signals are reactive state containers:</p>
@@ -138,7 +138,7 @@ raven dev</code></pre>
 let value = name.get();
 
 // Write
-name.set("RavensOne");
+name.set("JounceOne");
 
 // Update based on current value
 name.update(|current| format!("{} v2", current));</code></pre>
@@ -202,7 +202,7 @@ create_effect(move || {
                     <h3>Composing Components</h3>
                     <pre><code class="language-rust">component TodoList() {
     let todos = Signal::new(vec![
-        "Learn RavensOne".to_string(),
+        "Learn JounceOne".to_string(),
         "Build an app".to_string(),
         "Deploy to production".to_string(),
     ]);
@@ -264,9 +264,9 @@ create_effect(move || {
                         <h3>Need Help?</h3>
                         <p>Join our community for support and discussions:</p>
                         <ul>
-                            <li><a href="https://discord.gg/ravensone">Discord Community</a></li>
-                            <li><a href="https://github.com/ravensone/ravensone/issues">GitHub Issues</a></li>
-                            <li><a href="https://github.com/ravensone/ravensone/discussions">GitHub Discussions</a></li>
+                            <li><a href="https://discord.gg/jounce">Discord Community</a></li>
+                            <li><a href="https://github.com/jounce/jounce/issues">GitHub Issues</a></li>
+                            <li><a href="https://github.com/jounce/jounce/discussions">GitHub Discussions</a></li>
                         </ul>
                     </div>
                 </section>
@@ -277,7 +277,7 @@ create_effect(move || {
     <footer class="footer">
         <div class="container">
             <div class="footer-bottom">
-                <p>&copy; 2jnc25 RavensOne. Built with passion for the web.</p>
+                <p>&copy; 2jnc25 JounceOne. Built with passion for the web.</p>
             </div>
         </div>
     </footer>

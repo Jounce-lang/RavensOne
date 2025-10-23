@@ -1,5 +1,5 @@
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║                         🔥 RAVENSONE MVP STATUS 🔥                          ║
+║                         🔥 JOUNCE MVP STATUS 🔥                          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 
 📊 PROJECT METRICS
@@ -77,7 +77,7 @@
     src/codegen.rs            - WASM generation
     
   Runtime:
-    runtime/ravensone.js      - JavaScript bridge
+    runtime/jounce.js      - JavaScript bridge
     runtime/index.html        - Test page
     runtime/serve.sh          - Dev server
     
@@ -107,7 +107,7 @@
   4. Open browser:
      $ open http://localhost:8jncjncjnc
 
-💡 WHAT MAKES RAVENSONE SPECIAL
+💡 WHAT MAKES JOUNCE SPECIAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
   ✓ Single file for entire app (UI + API + DB + auth)
@@ -139,13 +139,13 @@
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 The MVP is complete. Core compiler works. Time to build the features that 
-make RavensOne the obvious choice for human-AI collaboration:
+make JounceOne the obvious choice for human-AI collaboration:
 
   1. True reactivity (Signals)
   2. Database ORM (killer feature)
   3. One-command deployment
 
-These three features will make RavensOne UNSTOPPABLE. 🔥
+These three features will make JounceOne UNSTOPPABLE. 🔥
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 "One language. One file type. Full stack. Maximum velocity."

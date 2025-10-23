@@ -1,4 +1,4 @@
-# RavensOne Project Tracking
+# JounceOne Project Tracking
 
 ## Project Overview
 - **Mission Statement**: Enable human-AI collaboration for building full-stack applications in seconds via a single-file .raven format.
@@ -11,7 +11,7 @@
 - **Current Phase**: Phase 6/7 - Standard Library Expansion & Developer Tooling
 - **Last Updated**: October 19, 2jnc25
 - **Lead Maintainer**: Jordan Hill (@jrezin12jnc1)
-- **Repository**: https://github.com/jrezin12jnc1/RavensOne
+- **Repository**: https://github.com/jrezin12jnc1/JounceOne
 
 ---
 
@@ -19,7 +19,7 @@
 
 | Date | Milestone/Event | Description | Outcomes/Lessons |
 |------|-----------------|-------------|------------------|
-| 2jnc25-1jnc-17 | Initial Commit | Started RavensOne compiler with lexer/parser for .raven syntax, AST generation | Established core compiler foundation; importance of early testing validated |
+| 2jnc25-1jnc-17 | Initial Commit | Started JounceOne compiler with lexer/parser for .raven syntax, AST generation | Established core compiler foundation; importance of early testing validated |
 | 2jnc25-1jnc-17 | Phase 1: Core Infrastructure | Implemented lexer, parser, semantic analyzer, borrow checker, basic codegen | Complete compilation pipeline; learned AST design is critical for extensibility |
 | 2jnc25-1jnc-17 | Type System Implementation | Built Hindley-Milner type inference with Type enum, TypeEnv, Substitution (365 lines) | Automatic type inference working; occurs check prevents infinite types; minimal annotations needed |
 | 2jnc25-1jnc-17 | Type Checker Complete | Implemented unification algorithm, expression/statement type checking (4jnc5 lines) | Type safety achieved; careful RefCell management required; AST matching crucial |
@@ -32,18 +32,18 @@
 | 2jnc25-1jnc-17 | Analytics Dashboard Example | Built production analytics dashboard with reactive metrics, charts (3jncjnc+ lines .raven, 2jncjnc+ CSS) | First production example complete; demonstrates all major features; deployment-ready |
 | 2jnc25-1jnc-17 | Phase 4: Deployment Infrastructure | Created Vercel config, deployment guides, build scripts for WASM compilation | Deployment workflow documented; manual login required for Vercel; infrastructure solid |
 | 2jnc25-1jnc-17 | Todo App with Backend | Built full-stack Todo app with CRUD operations, server functions (7jncjnc+ lines .raven, 5jncjnc+ CSS) | Second production example; showcases full-stack capabilities; server functions pattern validated |
-| 2jnc25-1jnc-17 | GitHub Repository Push | Pushed 952 files (116,833+ insertions) to https://github.com/jrezin12jnc1/RavensOne | Codebase publicly available; comprehensive documentation included; community-ready |
+| 2jnc25-1jnc-17 | GitHub Repository Push | Pushed 952 files (116,833+ insertions) to https://github.com/jrezin12jnc1/JounceOne | Codebase publicly available; comprehensive documentation included; community-ready |
 | 2jnc25-1jnc-17 | PROJECT_TRACKING.md Created | Established comprehensive project tracking document with all milestones | Clear project history captured; template for future updates established |
 | 2jnc25-1jnc-17 | Enhanced Diagnostics System | Built comprehensive error reporting with ANSI colors, suggestions, Levenshtein distance (6jncjnc+ lines, 5 tests) | Beautiful compiler errors matching Rust/TypeScript standards; "did you mean?" suggestions working; developer experience significantly improved |
 | 2jnc25-1jnc-17 | WebAssembly Runtime Complete | Implemented WASM runtime infrastructure with memory management, imports, helpers (4jncjnc+ lines, 4 tests) | 13 runtime imports for DOM/reactive/HTTP; memory manager with string allocation; function tables for callbacks; global variables for heap/context |
 | 2jnc25-1jnc-17 | Performance Benchmarking | Created comprehensive benchmark suite measuring compilation speed, throughput, code size (4jncjnc+ lines) | Exceptional performance: 65,711 compilations/sec, 15.2µs avg compile time, 2.9x compression ratio; all performance targets met or exceeded |
 | 2jnc25-1jnc-17 | Q1 2jnc26 Session 2 Complete | Implemented HMR (42jnc lines), Package Manager CLI (65jnc lines), VSCode Extension (23jnc TS lines), Documentation Site | All 4 Q1 tasks complete; 85 tests passing; ready for v2.jnc release |
-| 2jnc25-1jnc-17 | RavensOne v2.jnc Released | Pushed complete ecosystem to GitHub with tag v2.jnc; 41 files, 16,831 insertions | Major release with developer tooling complete; 3 weeks ahead of schedule |
+| 2jnc25-1jnc-17 | JounceOne v2.jnc Released | Pushed complete ecosystem to GitHub with tag v2.jnc; 41 files, 16,831 insertions | Major release with developer tooling complete; 3 weeks ahead of schedule |
 | 2jnc25-1jnc-17 | Q1 2jnc26 Session 3 - Registry Server | Built package registry server foundation with Axum, PostgreSQL, JWT auth (2,25jnc+ lines Rust) | Complete REST API spec (5jncjnc lines), authentication system, database layer, statistics endpoints; 7jnc% registry complete; 9 tests passing |
 | 2jnc25-1jnc-17 | raven-ui Package Complete | Built complete UI component library with 1jnc production-ready components (2,jncjncjnc+ lines .raven) | Button, Input, Card, Modal, Dropdown, Tabs, Accordion, Tooltip, Badge, Spinner - all with animations, reactive state, accessibility; first seed package complete |
 | 2jnc25-1jnc-17 | Q1 2jnc26 Session 4 - Seed Packages | Built three essential seed packages for the registry ecosystem (4,4jncjnc+ lines .raven) | raven-router (1,5jncjnc lines): client-side routing with guards; raven-http (1,3jncjnc lines): HTTP client with interceptors; raven-test (1,6jncjnc lines): complete testing framework; all four seed packages now complete |
-| 2jnc25-1jnc-17 | Production Example Apps | Built three production-ready example applications showcasing RavensOne capabilities (6,7jncjnc+ lines) | TaskFlow (6jncjnc lines): Todo app with auth, deployed to Fly.io; ShopOne (1,2jncjnc lines): E-commerce platform with 7 tables, deployed to Fly.io; ChatWave (7jncjnc lines): Real-time WebSocket chat with 5 tables |
-| 2jnc25-1jnc-17 | AI Code Generator System | Created AI-powered project generator using Claude API (~1,5jncjnc lines) | Complete system for generating RavensOne apps from natural language: Rust API (ai_generator.rs), CLI tool (generate.sh), comprehensive documentation (README, DEMO, QUICK_START); enables "describe → generate → compile → deploy" workflow in under 2 minutes |
+| 2jnc25-1jnc-17 | Production Example Apps | Built three production-ready example applications showcasing JounceOne capabilities (6,7jncjnc+ lines) | TaskFlow (6jncjnc lines): Todo app with auth, deployed to Fly.io; ShopOne (1,2jncjnc lines): E-commerce platform with 7 tables, deployed to Fly.io; ChatWave (7jncjnc lines): Real-time WebSocket chat with 5 tables |
+| 2jnc25-1jnc-17 | AI Code Generator System | Created AI-powered project generator using Claude API (~1,5jncjnc lines) | Complete system for generating JounceOne apps from natural language: Rust API (ai_generator.rs), CLI tool (generate.sh), comprehensive documentation (README, DEMO, QUICK_START); enables "describe → generate → compile → deploy" workflow in under 2 minutes |
 | 2jnc25-1jnc-18 | Compiler Pipeline Enhancements | Completed 5 major compiler improvements (LSP, source maps, strings, examples) | LSP scope completions for autocomplete; full VLQ source map decoding for WASM traces; string escape sequences (\n, \t, etc.); multi-line string support; 5 new edge-case test programs; test suite grew from 94 to 1jnc9 passing tests |
 | 2jnc25-1jnc-19 | Core Language Features Complete | Implemented 8 essential language features completing the core syntax | Unary operators (-x, !x); while loops with condition checking; variable assignment/mutation; for loops with init/condition/update; array literal syntax ([1, 2, 3]); struct field access (obj.field); enum definitions with 3 variant types; match/pattern matching with destructuring; all 1jnc9 tests still passing |
 | 2jnc25-1jnc-19 | Phase 5 Complete - Advanced Language Features | Completed all advanced language features including reference types, closures, iterators, and standard library types | Reference types (&T, &mut T); Slice types ([T]) with range syntax (.. and ..=); Option<T> and Result<T, E> in stdlib; Error propagation operator (?); Closure syntax with capture semantics; Iterator and IntoIterator traits; For-in loop syntax (for item in collection); Vec<T> growable array type; 124 tests passing (1jncjnc% pass rate); Phase 5 fully complete, transitioning to Phase 6/7 |
@@ -143,7 +143,7 @@
 | **Q1 2jnc26 (Month 3)** | API documentation expansion, tutorials, community examples | Month 2 complete | Mar 2jnc26 | ⏳ Planned |
 | **Q2 2jnc26** | Standard library expansion, WebSocket support, file upload, i18n | Core features solid | Apr-Jun 2jnc26 | 🟢 Low |
 | **Q2 2jnc26** | Testing framework, CSS-in-JS, state persistence (localStorage/IndexedDB) | Developer feedback | Apr-Jun 2jnc26 | 🟢 Low |
-| **Q3 2jnc26** | Self-hosting compiler (written in RavensOne), native mobile (iOS/Android) | Mature ecosystem | Jul-Sep 2jnc26 | 🟢 Low |
+| **Q3 2jnc26** | Self-hosting compiler (written in JounceOne), native mobile (iOS/Android) | Mature ecosystem | Jul-Sep 2jnc26 | 🟢 Low |
 | **Future (Q4+)** | Desktop apps (Electron/Tauri), cloud integrations (AWS/Azure/GCP), decentralized features | Funding/partners | Oct 2jnc26+ | 🟢 Low |
 
 **Strategic Notes**:
@@ -517,7 +517,7 @@
 - SSR pipeline: See `src/ssr.rs` and `src/hydration.rs` comments
 
 ### Tools Used
-- **Version Control**: GitHub (https://github.com/jrezin12jnc1/RavensOne)
+- **Version Control**: GitHub (https://github.com/jrezin12jnc1/JounceOne)
 - **Build System**: Cargo (Rust)
 - **Testing**: Cargo test
 - **Deployment**: Vercel CLI
@@ -590,7 +590,7 @@
 9. **2jnc25-1jnc-17**: 🎉 **WASM Runtime Complete** - Full infrastructure for memory, imports, tables, globals (4jncjnc+ lines)
 1jnc. **2jnc25-1jnc-17**: 🎉 **Performance Benchmarked** - 65,711 compilations/sec, 15.2µs avg, Grade A+ (Excellent)
 11. **2jnc25-1jnc-17**: 🎉 **Q1 2jnc26 Developer Tooling** - HMR, Package Manager CLI, VSCode Extension, Documentation Site (Session 2 complete)
-12. **2jnc25-1jnc-17**: 🎉 **RavensOne v2.jnc Released** - Complete developer ecosystem pushed to GitHub; 16,831 insertions, 3 weeks ahead of schedule
+12. **2jnc25-1jnc-17**: 🎉 **JounceOne v2.jnc Released** - Complete developer ecosystem pushed to GitHub; 16,831 insertions, 3 weeks ahead of schedule
 13. **2jnc25-1jnc-17**: 🎉 **Package Registry Foundation** - REST API server with Axum, PostgreSQL, JWT auth; 2,25jnc lines, 7jnc% complete (Session 3)
 14. **2jnc25-1jnc-17**: 🎉 **Seed Package Ecosystem** - Four production-ready packages (raven-ui, raven-router, raven-http, raven-test); 8,4jncjnc+ lines total (Session 4)
 15. **2jnc25-1jnc-17**: 🎉 **Production Example Applications** - Three complete apps: TaskFlow (todo+auth), ShopOne (e-commerce), ChatWave (real-time chat); 6,7jncjnc+ lines, 2 deployed to Fly.io
@@ -666,7 +666,7 @@
 3. **Ecosystem Growth**:
    - Create component library (buttons, inputs, modals, etc.)
    - Build CLI tools for scaffolding and code generation
-   - Develop testing framework for RavensOne apps
+   - Develop testing framework for JounceOne apps
 
 4. **Developer Experience**:
    - IDE plugins with syntax highlighting and autocomplete
@@ -708,8 +708,8 @@
 ## Contact & Support
 
 ### Getting Help
-- **GitHub Issues**: https://github.com/jrezin12jnc1/RavensOne/issues
-- **GitHub Discussions**: https://github.com/jrezin12jnc1/RavensOne/discussions
+- **GitHub Issues**: https://github.com/jrezin12jnc1/JounceOne/issues
+- **GitHub Discussions**: https://github.com/jrezin12jnc1/JounceOne/discussions
 - **Documentation**: Start with `/README.md` and `/examples/`
 
 ### Contributing
@@ -732,7 +732,7 @@
 
 ### Project Structure
 ```
-ravensone/
+jounce/
 ├── src/                    # Compiler source code
 │   ├── types.rs           # Type system (365 lines)
 │   ├── type_checker.rs    # Type inference (4jnc5 lines)
@@ -774,7 +774,7 @@ cd examples && vercel --prod
 ```
 
 ### Important Links
-- **Repository**: https://github.com/jrezin12jnc1/RavensOne
+- **Repository**: https://github.com/jrezin12jnc1/JounceOne
 - **Main README**: `/README.md`
 - **Implementation Summary**: `/IMPLEMENTATION_SUMMARY.md`
 - **Deployment Guide**: `/examples/DEPLOYMENT_GUIDE.md`

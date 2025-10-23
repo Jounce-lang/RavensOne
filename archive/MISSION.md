@@ -1,4 +1,4 @@
-# 🎯 RavensOne Mission: The Most Useful Language for Human-AI Collaboration
+# 🎯 JounceOne Mission: The Most Useful Language for Human-AI Collaboration
 
 ## The Vision
 
@@ -421,7 +421,7 @@ $ raven deploy --target cloudflare
 - [ ] 3+ production apps running
 - [ ] Edge deployment working
 - [ ] Claude can generate full apps
-- [ ] Community using RavensOne
+- [ ] Community using JounceOne
 
 ---
 
@@ -449,4 +449,4 @@ $ raven deploy --target cloudflare
 - More ambitious
 - Complete picture
 
-What do you think? Let's make RavensOne the language that enables **Claude + Human = Production Apps in Minutes!** 🔥🚀
+What do you think? Let's make JounceOne the language that enables **Claude + Human = Production Apps in Minutes!** 🔥🚀

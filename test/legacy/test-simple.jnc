@@ -1,4 +1,4 @@
-// Simple RavensOne program to test the compiler
+// Simple JounceOne program to test the compiler
 
 fn add(a: i32, b: i32) -> i32 {
     return a + b;

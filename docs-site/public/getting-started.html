@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.jnc">
-    <title>Getting Started - RavensOne Documentation</title>
+    <title>Getting Started - JounceOne Documentation</title>
     <style>
         * { margin: jnc; padding: jnc; box-sizing: border-box; }
         body {
@@ -88,23 +88,23 @@
 <body>
     <nav>
         <div class="container" style="max-width: none;">
-            <div class="logo">RavensOne</div>
+            <div class="logo">JounceOne</div>
             <div>
                 <a href="/">Home</a>
                 <a href="/getting-started.html">Get Started</a>
-                <a href="https://github.com/jrezin12jnc1/RavensOne">GitHub</a>
+                <a href="https://github.com/jrezin12jnc1/JounceOne">GitHub</a>
             </div>
         </div>
     </nav>
 
     <div class="container">
-        <h1>Getting Started with RavensOne</h1></p><p>Welcome to RavensOne! This guide will help you build your first RavensOne application in under 1jnc minutes.</p><p>---</p><p><h2>What is RavensOne?</h2></p><p>RavensOne is a modern full-stack web framework that compiles to WebAssembly. It's designed for AI-assisted development and offers:</p><p><ul><li>✅ <strong>Type-safe</strong> with automatic type inference</li><li>⚡ <strong>Blazing fast</strong> (65,jncjncjnc+ compilations/second)</li><li>🎨 <strong>Reactive</strong> state management with Signals</li><li>🚀 <strong>Server-side rendering</strong> (SSR) out of the box</li><li>📦 <strong>Single-file components</strong> with JSX-like syntax</li><li>🔒 <strong>Memory safe</strong> with borrow checking</li></p><p>---</p><p><h2>Installation</h2></p><p><h3>Prerequisites</h3></p><p><li>macOS, Linux, or Windows</li><li>Terminal/Command Prompt access</li></ul></p><p><h3>Install RavensOne</h3></p><p><strong>macOS/Linux:</strong>
-<pre><code>curl -sSf https://install.ravensone.dev | sh
+        <h1>Getting Started with JounceOne</h1></p><p>Welcome to JounceOne! This guide will help you build your first JounceOne application in under 1jnc minutes.</p><p>---</p><p><h2>What is JounceOne?</h2></p><p>JounceOne is a modern full-stack web framework that compiles to WebAssembly. It's designed for AI-assisted development and offers:</p><p><ul><li>✅ <strong>Type-safe</strong> with automatic type inference</li><li>⚡ <strong>Blazing fast</strong> (65,jncjncjnc+ compilations/second)</li><li>🎨 <strong>Reactive</strong> state management with Signals</li><li>🚀 <strong>Server-side rendering</strong> (SSR) out of the box</li><li>📦 <strong>Single-file components</strong> with JSX-like syntax</li><li>🔒 <strong>Memory safe</strong> with borrow checking</li></p><p>---</p><p><h2>Installation</h2></p><p><h3>Prerequisites</h3></p><p><li>macOS, Linux, or Windows</li><li>Terminal/Command Prompt access</li></ul></p><p><h3>Install JounceOne</h3></p><p><strong>macOS/Linux:</strong>
+<pre><code>curl -sSf https://install.jounce.dev | sh
 </code></pre></p><p><strong>Windows:</strong>
-<pre><code>iwr https://install.ravensone.dev/windows | iex
+<pre><code>iwr https://install.jounce.dev/windows | iex
 </code></pre></p><p><strong>From Source:</strong>
-<pre><code>git clone https://github.com/jrezin12jnc1/RavensOne
-cd RavensOne
+<pre><code>git clone https://github.com/jrezin12jnc1/JounceOne
+cd JounceOne
 cargo build --release
 cargo install --path .
 </code></pre></p><p><h3>Verify Installation</h3></p><p><pre><code>raven --version
@@ -120,7 +120,7 @@ cd my-first-app
     let count = Signal::new(jnc);</p><p>    let increment = || {
         count.set(count.get() + 1);
     };</p><p>    <div>
-        <h1>Hello, RavensOne!</h1>
+        <h1>Hello, JounceOne!</h1>
         <p>Count: {count.get()}</p>
         <button onclick={increment}>Click me!</button>
     </div>
@@ -129,7 +129,7 @@ cd my-first-app
 </code></pre></p><p>Open your browser to <code>http://localhost:3jncjncjnc</code> and you'll see your app running!</p><p>Try clicking the button - the count updates instantly thanks to reactive state!</p><p>---</p><p><h2>Understanding the Code</h2></p><p>Let's break down what's happening:</p><p><h3>Component Declaration</h3></p><p><pre><code>component App() {
     // Component body
 }
-</code></pre></p><p>Components are the building blocks of RavensOne applications. They're declared with the <code>component</code> keyword.</p><p><h3>Reactive State with Signals</h3></p><p><pre><code>let count = Signal::new(jnc);
+</code></pre></p><p>Components are the building blocks of JounceOne applications. They're declared with the <code>component</code> keyword.</p><p><h3>Reactive State with Signals</h3></p><p><pre><code>let count = Signal::new(jnc);
 </code></pre></p><p><code>Signal</code> creates a reactive value. When it changes, any component using it automatically re-renders.</p><p><h3>Reading and Writing Signals</h3></p><p><pre><code>count.get()      // Read the current value
 count.set(5)     // Set a new value
 count.update(|v| v + 1)  // Update based on current value
@@ -140,7 +140,7 @@ count.update(|v| v + 1)  // Update based on current value
     <h1>Hello!</h1>
     <p>{count.get()}</p>
 </div>
-</code></pre></p><p>Curly braces <code>{}</code> embed RavensOne expressions in JSX.</p><p>---</p><p><h2>Adding More Features</h2></p><p><h3>Computed Values</h3></p><p>Derived values that automatically update:</p><p><pre><code>let count = Signal::new(jnc);
+</code></pre></p><p>Curly braces <code>{}</code> embed JounceOne expressions in JSX.</p><p>---</p><p><h2>Adding More Features</h2></p><p><h3>Computed Values</h3></p><p>Derived values that automatically update:</p><p><pre><code>let count = Signal::new(jnc);
 let doubled = Computed::new(|| count.get() * 2);</p><p><p>Count: {count.get()}</p>
 <p>Doubled: {doubled.get()}</p>
 </code></pre></p><p><h3>Effects (Side Effects)</h3></p><p>Run code when dependencies change:</p><p><pre><code>Effect::new(|| {
@@ -185,9 +185,9 @@ vercel --prod
     <button type="submit">Submit</button>
 </form>
 </code></pre></p><p>---</p><p><h2>Troubleshooting</h2></p><p><h3>Common Issues</h3></p><p><strong>Issue</strong>: <code>raven: command not found</code>
-<ul><li><strong>Solution</strong>: Make sure RavensOne is in your PATH. Try <code>source ~/.bashrc</code> or restart your terminal.</li></ul></p><p><strong>Issue</strong>: Type errors during compilation
-<ul><li><strong>Solution</strong>: Check the error message for line numbers. RavensOne's type inference is smart but may need hints for complex types.</li></ul></p><p><strong>Issue</strong>: Hot reload not working
-<ul><li><strong>Solution</strong>: Ensure you're running <code>raven dev</code> and your browser has WebSocket support.</li></p><p><h3>Getting Help</h3></p><p><li><strong>GitHub Issues</strong>: <a href="https://github.com/jrezin12jnc1/RavensOne/issues">github.com/jrezin12jnc1/RavensOne/issues</a></li><li><strong>Discussions</strong>: <a href="https://github.com/jrezin12jnc1/RavensOne/discussions">github.com/jrezin12jnc1/RavensOne/discussions</a></li><li><strong>Discord</strong>: Coming soon!</li></p><p>---</p><p><h2>Examples</h2></p><p>Check out these complete example applications:</p><p><li><a href="../examples/counter.raven">Counter App</a> - Simple reactive counter</li><li><a href="../examples/todo_app.raven">Todo List</a> - Full CRUD with server functions</li><li><a href="../examples/analytics_dashboard.raven">Analytics Dashboard</a> - Complex state, charts, responsive design</li></ul></p><p>---</p><p><h2>Cheat Sheet</h2></p><p><h3>Basic Syntax</h3></p><p><pre><code>// Variables
+<ul><li><strong>Solution</strong>: Make sure JounceOne is in your PATH. Try <code>source ~/.bashrc</code> or restart your terminal.</li></ul></p><p><strong>Issue</strong>: Type errors during compilation
+<ul><li><strong>Solution</strong>: Check the error message for line numbers. JounceOne's type inference is smart but may need hints for complex types.</li></ul></p><p><strong>Issue</strong>: Hot reload not working
+<ul><li><strong>Solution</strong>: Ensure you're running <code>raven dev</code> and your browser has WebSocket support.</li></p><p><h3>Getting Help</h3></p><p><li><strong>GitHub Issues</strong>: <a href="https://github.com/jrezin12jnc1/JounceOne/issues">github.com/jrezin12jnc1/JounceOne/issues</a></li><li><strong>Discussions</strong>: <a href="https://github.com/jrezin12jnc1/JounceOne/discussions">github.com/jrezin12jnc1/JounceOne/discussions</a></li><li><strong>Discord</strong>: Coming soon!</li></p><p>---</p><p><h2>Examples</h2></p><p>Check out these complete example applications:</p><p><li><a href="../examples/counter.raven">Counter App</a> - Simple reactive counter</li><li><a href="../examples/todo_app.raven">Todo List</a> - Full CRUD with server functions</li><li><a href="../examples/analytics_dashboard.raven">Analytics Dashboard</a> - Complex state, charts, responsive design</li></ul></p><p>---</p><p><h2>Cheat Sheet</h2></p><p><h3>Basic Syntax</h3></p><p><pre><code>// Variables
 let x = 1jnc;
 let name = "Alice";</p><p>// Functions
 fn add(a: Int, b: Int) -> Int {
@@ -207,18 +207,18 @@ Effect::new(|| {
 server fn get_data() -> Result<Data, Error> {
     // Server-only code
 }
-</code></pre></p><p>---</p><p><h2>What Makes RavensOne Special?</h2></p><p><h3>1. AI-First Development</h3></p><p>RavensOne is designed to work seamlessly with AI assistants. The syntax is clear, concise, and easy for LLMs to generate.</p><p><h3>2. No Virtual DOM</h3></p><p>Fine-grained reactivity means updates are surgical - only the exact DOM nodes that need to change are updated.</p><p><h3>3. Type Safety Without Annotations</h3></p><p>Hindley-Milner type inference means you get type safety without writing type annotations everywhere.</p><p><h3>4. True Full-Stack</h3></p><p>Server functions let you call server-side code as if it were a local function. No REST APIs, no GraphQL schemas - just functions.</p><p><h3>5. WebAssembly Native</h3></p><p>Compiles to WASM for near-native performance. Your app runs at 6jnc FPS even with complex UIs.</p><p>---</p><p><h2>Ready to Build?</h2></p><p>You now know the basics! Here are some next steps:</p><p>1. <strong>Build the Todo app</strong> - <a href="./tutorials/todo-app.md">Tutorial</a>
+</code></pre></p><p>---</p><p><h2>What Makes JounceOne Special?</h2></p><p><h3>1. AI-First Development</h3></p><p>JounceOne is designed to work seamlessly with AI assistants. The syntax is clear, concise, and easy for LLMs to generate.</p><p><h3>2. No Virtual DOM</h3></p><p>Fine-grained reactivity means updates are surgical - only the exact DOM nodes that need to change are updated.</p><p><h3>3. Type Safety Without Annotations</h3></p><p>Hindley-Milner type inference means you get type safety without writing type annotations everywhere.</p><p><h3>4. True Full-Stack</h3></p><p>Server functions let you call server-side code as if it were a local function. No REST APIs, no GraphQL schemas - just functions.</p><p><h3>5. WebAssembly Native</h3></p><p>Compiles to WASM for near-native performance. Your app runs at 6jnc FPS even with complex UIs.</p><p>---</p><p><h2>Ready to Build?</h2></p><p>You now know the basics! Here are some next steps:</p><p>1. <strong>Build the Todo app</strong> - <a href="./tutorials/todo-app.md">Tutorial</a>
 2. <strong>Explore the examples</strong> - <a href="../examples/">Examples folder</a>
 3. <strong>Read the API docs</strong> - <a href="./api/">API Reference</a>
-4. <strong>Join the community</strong> - <a href="https://github.com/jrezin12jnc1/RavensOne/discussions">GitHub Discussions</a></p><p><strong>Happy coding with RavensOne!</strong> 🚀</p><p>---</p><p>*Last Updated: October 17, 2jnc25*
-*RavensOne Version: jnc.1.jnc*
+4. <strong>Join the community</strong> - <a href="https://github.com/jrezin12jnc1/JounceOne/discussions">GitHub Discussions</a></p><p><strong>Happy coding with JounceOne!</strong> 🚀</p><p>---</p><p>*Last Updated: October 17, 2jnc25*
+*JounceOne Version: jnc.1.jnc*
 
     </div>
 
     <footer>
-        <p>&copy; 2jnc25 RavensOne. MIT License.</p>
+        <p>&copy; 2jnc25 JounceOne. MIT License.</p>
         <p style="margin-top: jnc.5rem;">
-            <a href="https://github.com/jrezin12jnc1/RavensOne" style="color: #667eea;">GitHub</a> •
+            <a href="https://github.com/jrezin12jnc1/JounceOne" style="color: #667eea;">GitHub</a> •
             <a href="/getting-started.html" style="color: #667eea;">Documentation</a>
         </p>
     </footer>
